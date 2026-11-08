@@ -1,0 +1,488 @@
+{
+ "id": "bank_01",
+ "kind": "bank",
+ "ref": "AK-26-1042",
+ "title": "खाता खोलने का आवेदन",
+ "customer_name": "रमेश अय्यर",
+ "language": "hi",
+ "language_name": "Hindi",
+ "script": "Devanagari",
+ "quality": "fair",
+ "status": "queued",
+ "priority": "high",
+ "submitted_minutes": 38,
+ "assignee": null,
+ "reviewer": null,
+ "reviewed_after": null,
+ "amount": null,
+ "note": "Branch walk-in application with a folded first page.",
+ "reject_reason": "",
+ "escalation_reason": "",
+ "rescan_reason": "",
+ "sequence": 1042,
+ "pages": [
+  {
+   "no": 1,
+   "file": "bank_01.jpg",
+   "width": 1240,
+   "height": 1754
+  }
+ ],
+ "fields": [
+  {
+   "key": "full_name",
+   "label": "Full name",
+   "label_sub": "पूरा नाम",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.58,
+   "error": null,
+   "truth": "रमेश अय्यर",
+   "bbox": [
+    72,
+    396,
+    115.8,
+    34.6
+   ],
+   "value": "रमेश अय्य",
+   "corrected": false
+  },
+  {
+   "key": "dob",
+   "label": "Date of birth",
+   "label_sub": "जन्म तिथि",
+   "type": "date",
+   "required": true,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.63,
+   "error": null,
+   "truth": "14/06/1987",
+   "bbox": [
+    529,
+    396,
+    181.8,
+    45.3
+   ],
+   "value": "14/O6/1987",
+   "corrected": false
+  },
+  {
+   "key": "gender",
+   "label": "Gender",
+   "label_sub": "लिंग",
+   "type": "choice",
+   "required": true,
+   "options": [
+    "Male",
+    "Female"
+   ],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.896,
+   "error": null,
+   "truth": "पुरुष",
+   "bbox": [
+    100,
+    478,
+    49.0,
+    34.6
+   ],
+   "value": "पुरुष",
+   "corrected": false
+  },
+  {
+   "key": "marital_status",
+   "label": "Marital status",
+   "label_sub": "वैवाहिक स्थिति",
+   "type": "choice",
+   "required": true,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.898,
+   "error": null,
+   "truth": "अविवाहित",
+   "bbox": [
+    557,
+    478,
+    103.7,
+    34.6
+   ],
+   "value": "अविवाहित",
+   "corrected": false
+  },
+  {
+   "key": "father_name",
+   "label": "Father's name",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.939,
+   "error": null,
+   "truth": "सुरेश अय्यर",
+   "bbox": [
+    72,
+    544,
+    117.0,
+    34.6
+   ],
+   "value": "सुरेश अय्यर",
+   "corrected": false
+  },
+  {
+   "key": "mother_name",
+   "label": "Mother's name",
+   "label_sub": "",
+   "type": "text",
+   "required": false,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.859,
+   "error": null,
+   "truth": "लता अय्यर",
+   "bbox": [
+    529,
+    544,
+    106.4,
+    34.6
+   ],
+   "value": "लता अय्यर",
+   "corrected": false
+  },
+  {
+   "key": "mobile",
+   "label": "Mobile number",
+   "label_sub": "मोबाइल नंबर",
+   "type": "phone",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.44,
+   "error": null,
+   "truth": "9820112233",
+   "bbox": [
+    72,
+    716,
+    189.9,
+    45.3
+   ],
+   "value": "982O112233",
+   "corrected": false
+  },
+  {
+   "key": "email",
+   "label": "Email address",
+   "label_sub": "ईमेल",
+   "type": "email",
+   "required": false,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.849,
+   "error": null,
+   "truth": "ramesh.iyer@example.in",
+   "bbox": [
+    637,
+    716,
+    312.2,
+    45.3
+   ],
+   "value": "ramesh.iyer@example.in",
+   "corrected": false
+  },
+  {
+   "key": "address",
+   "label": "Residential address",
+   "label_sub": "निवास पता",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.919,
+   "error": null,
+   "truth": "12, सुंदर नगर, अंधेरी पश्चिम, मुंबई 400058",
+   "bbox": [
+    72,
+    798,
+    361.2,
+    29.3
+   ],
+   "value": "12, सुंदर नगर, अंधेरी पश्चिम, मुंबई 400058",
+   "corrected": false
+  },
+  {
+   "key": "city",
+   "label": "City",
+   "label_sub": "शहर",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.904,
+   "error": null,
+   "truth": "मुंबई",
+   "bbox": [
+    72,
+    880,
+    48.4,
+    34.6
+   ],
+   "value": "मुंबई",
+   "corrected": false
+  },
+  {
+   "key": "state",
+   "label": "State",
+   "label_sub": "राज्य",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.834,
+   "error": null,
+   "truth": "Maharashtra",
+   "bbox": [
+    637,
+    880,
+    167.9,
+    45.3
+   ],
+   "value": "Maharashtra",
+   "corrected": false
+  },
+  {
+   "key": "pincode",
+   "label": "PIN code",
+   "label_sub": "पिन कोड",
+   "type": "pincode",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.869,
+   "error": null,
+   "truth": "400058",
+   "bbox": [
+    72,
+    962,
+    114.0,
+    45.3
+   ],
+   "value": "400058",
+   "corrected": false
+  },
+  {
+   "key": "account_type",
+   "label": "Account type",
+   "label_sub": "खाता प्रकार",
+   "type": "choice",
+   "required": true,
+   "options": [
+    "Savings",
+    "Current",
+    "Salary"
+   ],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.72,
+   "error": null,
+   "truth": "बचत",
+   "bbox": [
+    100,
+    1118,
+    49.7,
+    34.6
+   ],
+   "value": "बचत",
+   "corrected": false
+  },
+  {
+   "key": "occupation",
+   "label": "Occupation",
+   "label_sub": "व्यवसाय",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.836,
+   "error": null,
+   "truth": "व्यवसायी",
+   "bbox": [
+    637,
+    1118,
+    89.6,
+    34.6
+   ],
+   "value": "व्यवसायी",
+   "corrected": false
+  },
+  {
+   "key": "annual_income",
+   "label": "Annual income",
+   "label_sub": "वार्षिक आय",
+   "type": "amount",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.914,
+   "error": null,
+   "truth": "₹ 9,60,000",
+   "bbox": [
+    72,
+    1200,
+    116.5,
+    34.6
+   ],
+   "value": "₹ 9,60,000",
+   "corrected": false
+  },
+  {
+   "key": "branch",
+   "label": "Home branch",
+   "label_sub": "शाखा",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.927,
+   "error": null,
+   "truth": "Meridian — Mumbai",
+   "bbox": [
+    637,
+    1200,
+    237.3,
+    34.6
+   ],
+   "value": "Meridian — Mumbai",
+   "corrected": false
+  },
+  {
+   "key": "aadhaar_last4",
+   "label": "Aadhaar (last 4)",
+   "label_sub": "आधार अंतिम 4",
+   "type": "number",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.862,
+   "error": null,
+   "truth": "4821",
+   "bbox": [
+    72,
+    1282,
+    76.0,
+    45.3
+   ],
+   "value": "4821",
+   "corrected": false
+  },
+  {
+   "key": "pan",
+   "label": "PAN",
+   "label_sub": "पैन",
+   "type": "pan",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.832,
+   "error": null,
+   "truth": "AKJPI4821R",
+   "bbox": [
+    637,
+    1282,
+    176.6,
+    45.3
+   ],
+   "value": "AKJPI4821R",
+   "corrected": false
+  },
+  {
+   "key": "nominee_name",
+   "label": "Nominee name",
+   "label_sub": "नामांकित व्यक्ति",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Nominee & declaration",
+   "dir": "ltr",
+   "confidence": 0.864,
+   "error": null,
+   "truth": "सुनीता देशमुख",
+   "bbox": [
+    72,
+    1438,
+    147.1,
+    34.6
+   ],
+   "value": "सुनीता देशमुख",
+   "corrected": false
+  },
+  {
+   "key": "nominee_relation",
+   "label": "Relationship",
+   "label_sub": "संबंध",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Nominee & declaration",
+   "dir": "ltr",
+   "confidence": 0.898,
+   "error": null,
+   "truth": "पति/पत्नी",
+   "bbox": [
+    637,
+    1438,
+    88.5,
+    34.6
+   ],
+   "value": "पति/पत्नी",
+   "corrected": false
+  },
+  {
+   "key": "declaration",
+   "label": "Declaration accepted",
+   "label_sub": "घोषणा स्वीकृत",
+   "type": "consent",
+   "required": true,
+   "options": [],
+   "section": "Nominee & declaration",
+   "dir": "ltr",
+   "confidence": 0.906,
+   "error": null,
+   "truth": "Accepted",
+   "bbox": [
+    100,
+    1520,
+    119.8,
+    45.3
+   ],
+   "value": "Accepted",
+   "corrected": false
+  }
+ ],
+ "confidence": 0.614,
+ "low_count": 4,
+ "field_count": 21,
+ "thumb": "bank_01_thumb.jpg",
+ "preview": "bank_01.jpg",
+ "doc_type": "bank",
+ "doc_type_label": "Account opening"
+}

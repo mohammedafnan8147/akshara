@@ -1,0 +1,488 @@
+{
+ "id": "bank_02",
+ "kind": "bank",
+ "ref": "AK-26-1048",
+ "title": "खाते उघडण्याचा अर्ज",
+ "customer_name": "सुनीता देशमुख",
+ "language": "mr",
+ "language_name": "Marathi",
+ "script": "Devanagari",
+ "quality": "good",
+ "status": "approved",
+ "priority": "normal",
+ "submitted_minutes": 1440,
+ "assignee": "arjun",
+ "reviewer": "arjun",
+ "reviewed_after": 18,
+ "amount": null,
+ "note": "",
+ "reject_reason": "",
+ "escalation_reason": "",
+ "rescan_reason": "",
+ "sequence": 1048,
+ "pages": [
+  {
+   "no": 1,
+   "file": "bank_02.jpg",
+   "width": 1240,
+   "height": 1754
+  }
+ ],
+ "fields": [
+  {
+   "key": "full_name",
+   "label": "Full name",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.986,
+   "error": null,
+   "truth": "सुनीता देशमुख",
+   "bbox": [
+    72,
+    372,
+    147.1,
+    34.6
+   ],
+   "value": "सुनीता देशमुख",
+   "corrected": false
+  },
+  {
+   "key": "dob",
+   "label": "Date of birth",
+   "label_sub": "",
+   "type": "date",
+   "required": true,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.97,
+   "error": null,
+   "truth": "03/11/1992",
+   "bbox": [
+    529,
+    372,
+    181.8,
+    45.3
+   ],
+   "value": "03/11/1992",
+   "corrected": false
+  },
+  {
+   "key": "gender",
+   "label": "Gender",
+   "label_sub": "",
+   "type": "choice",
+   "required": true,
+   "options": [
+    "Male",
+    "Female"
+   ],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.953,
+   "error": null,
+   "truth": "स्त्री",
+   "bbox": [
+    100,
+    454,
+    34.4,
+    34.6
+   ],
+   "value": "स्त्री",
+   "corrected": false
+  },
+  {
+   "key": "marital_status",
+   "label": "Marital status",
+   "label_sub": "",
+   "type": "choice",
+   "required": true,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.967,
+   "error": null,
+   "truth": "विवाहित",
+   "bbox": [
+    557,
+    454,
+    82.4,
+    34.6
+   ],
+   "value": "विवाहित",
+   "corrected": false
+  },
+  {
+   "key": "father_name",
+   "label": "Father's name",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.986,
+   "error": null,
+   "truth": "अनिल देशमुख",
+   "bbox": [
+    72,
+    536,
+    145.6,
+    34.6
+   ],
+   "value": "अनिल देशमुख",
+   "corrected": false
+  },
+  {
+   "key": "mother_name",
+   "label": "Mother's name",
+   "label_sub": "",
+   "type": "text",
+   "required": false,
+   "options": [],
+   "section": "Applicant identity",
+   "dir": "ltr",
+   "confidence": 0.982,
+   "error": null,
+   "truth": "वैशाली देशमुख",
+   "bbox": [
+    529,
+    536,
+    150.8,
+    34.6
+   ],
+   "value": "वैशाली देशमुख",
+   "corrected": false
+  },
+  {
+   "key": "mobile",
+   "label": "Mobile number",
+   "label_sub": "",
+   "type": "phone",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.951,
+   "error": null,
+   "truth": "9822456781",
+   "bbox": [
+    72,
+    684,
+    189.9,
+    45.3
+   ],
+   "value": "9822456781",
+   "corrected": false
+  },
+  {
+   "key": "email",
+   "label": "Email address",
+   "label_sub": "",
+   "type": "email",
+   "required": false,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.976,
+   "error": null,
+   "truth": "sunita.d@example.in",
+   "bbox": [
+    637,
+    684,
+    262.8,
+    45.3
+   ],
+   "value": "sunita.d@example.in",
+   "corrected": false
+  },
+  {
+   "key": "address",
+   "label": "Residential address",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.962,
+   "error": null,
+   "truth": "48, शिवाजी हाउसिंग सोसायटी, कोथरूड, पुणे 411038",
+   "bbox": [
+    72,
+    766,
+    459.9,
+    29.3
+   ],
+   "value": "48, शिवाजी हाउसिंग सोसायटी, कोथरूड, पुणे 411038",
+   "corrected": false
+  },
+  {
+   "key": "city",
+   "label": "City",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.973,
+   "error": null,
+   "truth": "पुणे",
+   "bbox": [
+    72,
+    848,
+    34.9,
+    34.6
+   ],
+   "value": "पुणे",
+   "corrected": false
+  },
+  {
+   "key": "state",
+   "label": "State",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.961,
+   "error": null,
+   "truth": "Maharashtra",
+   "bbox": [
+    637,
+    848,
+    167.9,
+    45.3
+   ],
+   "value": "Maharashtra",
+   "corrected": false
+  },
+  {
+   "key": "pincode",
+   "label": "PIN code",
+   "label_sub": "",
+   "type": "pincode",
+   "required": true,
+   "options": [],
+   "section": "Contact & address",
+   "dir": "ltr",
+   "confidence": 0.959,
+   "error": null,
+   "truth": "411038",
+   "bbox": [
+    72,
+    930,
+    114.0,
+    45.3
+   ],
+   "value": "411038",
+   "corrected": false
+  },
+  {
+   "key": "account_type",
+   "label": "Account type",
+   "label_sub": "",
+   "type": "choice",
+   "required": true,
+   "options": [
+    "Savings",
+    "Current",
+    "Salary"
+   ],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.953,
+   "error": null,
+   "truth": "बचत",
+   "bbox": [
+    100,
+    1078,
+    49.7,
+    34.6
+   ],
+   "value": "बचत",
+   "corrected": false
+  },
+  {
+   "key": "occupation",
+   "label": "Occupation",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.963,
+   "error": null,
+   "truth": "नोकरदार",
+   "bbox": [
+    637,
+    1078,
+    93.3,
+    34.6
+   ],
+   "value": "नोकरदार",
+   "corrected": false
+  },
+  {
+   "key": "annual_income",
+   "label": "Annual income",
+   "label_sub": "",
+   "type": "amount",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.965,
+   "error": null,
+   "truth": "₹ 7,20,000",
+   "bbox": [
+    72,
+    1160,
+    116.5,
+    34.6
+   ],
+   "value": "₹ 7,20,000",
+   "corrected": false
+  },
+  {
+   "key": "branch",
+   "label": "Home branch",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.99,
+   "error": null,
+   "truth": "Meridian — Pune",
+   "bbox": [
+    637,
+    1160,
+    199.7,
+    34.6
+   ],
+   "value": "Meridian — Pune",
+   "corrected": false
+  },
+  {
+   "key": "aadhaar_last4",
+   "label": "Aadhaar (last 4)",
+   "label_sub": "",
+   "type": "number",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.954,
+   "error": null,
+   "truth": "7392",
+   "bbox": [
+    72,
+    1242,
+    76.0,
+    45.3
+   ],
+   "value": "7392",
+   "corrected": false
+  },
+  {
+   "key": "pan",
+   "label": "PAN",
+   "label_sub": "",
+   "type": "pan",
+   "required": true,
+   "options": [],
+   "section": "Account preferences",
+   "dir": "ltr",
+   "confidence": 0.96,
+   "error": null,
+   "truth": "BQPDS7392L",
+   "bbox": [
+    637,
+    1242,
+    188.1,
+    45.3
+   ],
+   "value": "BQPDS7392L",
+   "corrected": false
+  },
+  {
+   "key": "nominee_name",
+   "label": "Nominee name",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Nominee & declaration",
+   "dir": "ltr",
+   "confidence": 0.952,
+   "error": null,
+   "truth": "इमरान कुरैशी",
+   "bbox": [
+    72,
+    1390,
+    136.9,
+    34.6
+   ],
+   "value": "इमरान कुरैशी",
+   "corrected": false
+  },
+  {
+   "key": "nominee_relation",
+   "label": "Relationship",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Nominee & declaration",
+   "dir": "ltr",
+   "confidence": 0.976,
+   "error": null,
+   "truth": "जोडीदार",
+   "bbox": [
+    637,
+    1390,
+    87.2,
+    34.6
+   ],
+   "value": "जोडीदार",
+   "corrected": false
+  },
+  {
+   "key": "declaration",
+   "label": "Declaration accepted",
+   "label_sub": "",
+   "type": "consent",
+   "required": true,
+   "options": [],
+   "section": "Nominee & declaration",
+   "dir": "ltr",
+   "confidence": 0.971,
+   "error": null,
+   "truth": "Accepted",
+   "bbox": [
+    100,
+    1472,
+    119.8,
+    45.3
+   ],
+   "value": "Accepted",
+   "corrected": false
+  }
+ ],
+ "confidence": 0.958,
+ "low_count": 0,
+ "field_count": 21,
+ "thumb": "bank_02_thumb.jpg",
+ "preview": "bank_02.jpg",
+ "doc_type": "bank",
+ "doc_type_label": "Account opening"
+}
