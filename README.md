@@ -1,4 +1,8 @@
 # Akshara
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/mohammedafnan8147/akshara)
+
+Deploy your own free public demo from this repository. Render creates a unique `onrender.com` URL for each deployment. Free demos sleep after 15 minutes without traffic, and uploaded files and local SQLite data reset when the service restarts. Use synthetic demo data only.
+
 
 **Document intelligence for every script — with a human in the loop.**
 
