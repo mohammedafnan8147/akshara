@@ -1,0 +1,271 @@
+{
+ "id": "service_02",
+ "kind": "service",
+ "ref": "AK-26-1051",
+ "title": "Service Request Form",
+ "customer_name": "Priya Nair",
+ "language": "en",
+ "language_name": "English",
+ "script": "Latin",
+ "quality": "good",
+ "status": "queued",
+ "priority": "normal",
+ "submitted_minutes": 22,
+ "assignee": null,
+ "reviewer": null,
+ "reviewed_after": null,
+ "amount": null,
+ "note": "Duplicate statement request through the mobile app.",
+ "reject_reason": "",
+ "escalation_reason": "",
+ "rescan_reason": "",
+ "sequence": 1051,
+ "pages": [
+  {
+   "no": 1,
+   "file": "service_02.jpg",
+   "width": 1240,
+   "height": 1754
+  }
+ ],
+ "fields": [
+  {
+   "key": "customer_name",
+   "label": "Customer name",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Customer",
+   "dir": "ltr",
+   "confidence": 0.95,
+   "error": null,
+   "truth": "Priya Nair",
+   "bbox": [
+    72,
+    372,
+    137.2,
+    45.3
+   ],
+   "value": "Priya Nair",
+   "corrected": false
+  },
+  {
+   "key": "account_no",
+   "label": "Account number",
+   "label_sub": "",
+   "type": "account",
+   "required": true,
+   "options": [],
+   "section": "Customer",
+   "dir": "ltr",
+   "confidence": 0.948,
+   "error": null,
+   "truth": "501002345690",
+   "bbox": [
+    637,
+    372,
+    227.9,
+    45.3
+   ],
+   "value": "501002345690",
+   "corrected": false
+  },
+  {
+   "key": "mobile",
+   "label": "Registered mobile",
+   "label_sub": "",
+   "type": "phone",
+   "required": true,
+   "options": [],
+   "section": "Customer",
+   "dir": "ltr",
+   "confidence": 0.981,
+   "error": null,
+   "truth": "9821990011",
+   "bbox": [
+    72,
+    454,
+    189.9,
+    45.3
+   ],
+   "value": "9821990011",
+   "corrected": false
+  },
+  {
+   "key": "alt_contact",
+   "label": "Alternate contact",
+   "label_sub": "",
+   "type": "text",
+   "required": false,
+   "options": [],
+   "section": "Customer",
+   "dir": "ltr",
+   "confidence": 0.977,
+   "error": null,
+   "truth": "022-40001644",
+   "bbox": [
+    637,
+    454,
+    225.6,
+    45.3
+   ],
+   "value": "022-40001644",
+   "corrected": false
+  },
+  {
+   "key": "request_type",
+   "label": "Request type",
+   "label_sub": "",
+   "type": "choice",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.951,
+   "error": null,
+   "truth": "Address update",
+   "bbox": [
+    100,
+    602,
+    204.6,
+    45.3
+   ],
+   "value": "Address update",
+   "corrected": false
+  },
+  {
+   "key": "priority",
+   "label": "Priority",
+   "label_sub": "",
+   "type": "choice",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.976,
+   "error": null,
+   "truth": "Standard",
+   "bbox": [
+    665,
+    602,
+    124.2,
+    45.3
+   ],
+   "value": "Standard",
+   "corrected": false
+  },
+  {
+   "key": "service_details",
+   "label": "Request description",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.967,
+   "error": null,
+   "truth": "Please update my registered address to the new residential address shown in the attached proof. All future correspondence should go to this address.",
+   "bbox": [
+    72,
+    680,
+    1442.7,
+    33.1
+   ],
+   "value": "Please update my registered address to the new residential address shown in the attached proof. All future correspondence should go to this address.",
+   "corrected": false
+  },
+  {
+   "key": "branch",
+   "label": "Service branch",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.987,
+   "error": null,
+   "truth": "BharatConnect — Mumbai",
+   "bbox": [
+    72,
+    758,
+    304.6,
+    34.6
+   ],
+   "value": "BharatConnect — Mumbai",
+   "corrected": false
+  },
+  {
+   "key": "preferred_date",
+   "label": "Preferred date",
+   "label_sub": "",
+   "type": "date",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.962,
+   "error": null,
+   "truth": "12/11/2026",
+   "bbox": [
+    637,
+    758,
+    181.8,
+    45.3
+   ],
+   "value": "12/11/2026",
+   "corrected": false
+  },
+  {
+   "key": "contact_pref",
+   "label": "Contact preference",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Consent",
+   "dir": "ltr",
+   "confidence": 0.954,
+   "error": null,
+   "truth": "Call back on registered mobile",
+   "bbox": [
+    72,
+    902,
+    395.7,
+    45.3
+   ],
+   "value": "Call back on registered mobile",
+   "corrected": false
+  },
+  {
+   "key": "consent",
+   "label": "Consent to process",
+   "label_sub": "",
+   "type": "consent",
+   "required": true,
+   "options": [],
+   "section": "Consent",
+   "dir": "ltr",
+   "confidence": 0.982,
+   "error": null,
+   "truth": "Agreed",
+   "bbox": [
+    665,
+    902,
+    92.6,
+    45.3
+   ],
+   "value": "Agreed",
+   "corrected": false
+  }
+ ],
+ "confidence": 0.956,
+ "low_count": 0,
+ "field_count": 11,
+ "thumb": "service_02_thumb.jpg",
+ "preview": "service_02.jpg",
+ "doc_type": "service",
+ "doc_type_label": "Service request"
+}

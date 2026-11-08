@@ -1,0 +1,271 @@
+{
+ "id": "service_01",
+ "kind": "service",
+ "ref": "AK-26-1044",
+ "title": "சேவை கோரிக்கை படிவம்",
+ "customer_name": "கார்த்திக் சுப்ரமணியன்",
+ "language": "ta",
+ "language_name": "Tamil",
+ "script": "Tamil",
+ "quality": "good",
+ "status": "auto_approved",
+ "priority": "normal",
+ "submitted_minutes": 12,
+ "assignee": null,
+ "reviewer": null,
+ "reviewed_after": null,
+ "amount": null,
+ "note": "",
+ "reject_reason": "",
+ "escalation_reason": "",
+ "rescan_reason": "",
+ "sequence": 1044,
+ "pages": [
+  {
+   "no": 1,
+   "file": "service_01.jpg",
+   "width": 1240,
+   "height": 1754
+  }
+ ],
+ "fields": [
+  {
+   "key": "customer_name",
+   "label": "Customer name",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Customer",
+   "dir": "ltr",
+   "confidence": 0.992,
+   "error": null,
+   "truth": "கார்த்திக் சுப்ரமணியன்",
+   "bbox": [
+    72,
+    372,
+    338.6,
+    34.6
+   ],
+   "value": "கார்த்திக் சுப்ரமணியன்",
+   "corrected": false
+  },
+  {
+   "key": "account_no",
+   "label": "Account number",
+   "label_sub": "",
+   "type": "account",
+   "required": true,
+   "options": [],
+   "section": "Customer",
+   "dir": "ltr",
+   "confidence": 0.962,
+   "error": null,
+   "truth": "501002345685",
+   "bbox": [
+    637,
+    372,
+    227.9,
+    45.3
+   ],
+   "value": "501002345685",
+   "corrected": false
+  },
+  {
+   "key": "mobile",
+   "label": "Registered mobile",
+   "label_sub": "",
+   "type": "phone",
+   "required": true,
+   "options": [],
+   "section": "Customer",
+   "dir": "ltr",
+   "confidence": 0.955,
+   "error": null,
+   "truth": "9880443322",
+   "bbox": [
+    72,
+    454,
+    189.9,
+    45.3
+   ],
+   "value": "9880443322",
+   "corrected": false
+  },
+  {
+   "key": "alt_contact",
+   "label": "Alternate contact",
+   "label_sub": "",
+   "type": "text",
+   "required": false,
+   "options": [],
+   "section": "Customer",
+   "dir": "ltr",
+   "confidence": 0.96,
+   "error": null,
+   "truth": "022-40000959",
+   "bbox": [
+    637,
+    454,
+    225.6,
+    45.3
+   ],
+   "value": "022-40000959",
+   "corrected": false
+  },
+  {
+   "key": "request_type",
+   "label": "Request type",
+   "label_sub": "",
+   "type": "choice",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.955,
+   "error": null,
+   "truth": "நகல் அறிக்கை",
+   "bbox": [
+    100,
+    602,
+    213.9,
+    34.6
+   ],
+   "value": "நகல் அறிக்கை",
+   "corrected": false
+  },
+  {
+   "key": "priority",
+   "label": "Priority",
+   "label_sub": "",
+   "type": "choice",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.948,
+   "error": null,
+   "truth": "வழக்கமானது",
+   "bbox": [
+    665,
+    602,
+    197.8,
+    34.6
+   ],
+   "value": "வழக்கமானது",
+   "corrected": false
+  },
+  {
+   "key": "service_details",
+   "label": "Request description",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.971,
+   "error": null,
+   "truth": "Requesting a duplicate account statement for the period 01 Apr 2026 to 31 Oct 2026 for a home loan application.",
+   "bbox": [
+    72,
+    680,
+    1132.7,
+    33.1
+   ],
+   "value": "Requesting a duplicate account statement for the period 01 Apr 2026 to 31 Oct 2026 for a home loan application.",
+   "corrected": false
+  },
+  {
+   "key": "branch",
+   "label": "Service branch",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.958,
+   "error": null,
+   "truth": "BharatConnect — Bengaluru",
+   "bbox": [
+    72,
+    758,
+    325.9,
+    34.6
+   ],
+   "value": "BharatConnect — Bengaluru",
+   "corrected": false
+  },
+  {
+   "key": "preferred_date",
+   "label": "Preferred date",
+   "label_sub": "",
+   "type": "date",
+   "required": true,
+   "options": [],
+   "section": "Request details",
+   "dir": "ltr",
+   "confidence": 0.959,
+   "error": null,
+   "truth": "12/11/2026",
+   "bbox": [
+    637,
+    758,
+    181.8,
+    45.3
+   ],
+   "value": "12/11/2026",
+   "corrected": false
+  },
+  {
+   "key": "contact_pref",
+   "label": "Contact preference",
+   "label_sub": "",
+   "type": "text",
+   "required": true,
+   "options": [],
+   "section": "Consent",
+   "dir": "ltr",
+   "confidence": 0.96,
+   "error": null,
+   "truth": "Call back on registered mobile",
+   "bbox": [
+    72,
+    902,
+    395.7,
+    45.3
+   ],
+   "value": "Call back on registered mobile",
+   "corrected": false
+  },
+  {
+   "key": "consent",
+   "label": "Consent to process",
+   "label_sub": "",
+   "type": "consent",
+   "required": true,
+   "options": [],
+   "section": "Consent",
+   "dir": "ltr",
+   "confidence": 0.955,
+   "error": null,
+   "truth": "Agreed",
+   "bbox": [
+    665,
+    902,
+    92.6,
+    45.3
+   ],
+   "value": "Agreed",
+   "corrected": false
+  }
+ ],
+ "confidence": 0.954,
+ "low_count": 0,
+ "field_count": 11,
+ "thumb": "service_01_thumb.jpg",
+ "preview": "service_01.jpg",
+ "doc_type": "service",
+ "doc_type_label": "Service request"
+}
