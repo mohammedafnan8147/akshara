@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/akshara.db
+data/akshara.db-*
+data/.session_secret
+data/uploads/
+build/
+tmp/
+tools/renderer/*.exe
+
+# Local configuration and generated artifacts
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+*.log
+.DS_Store
+Thumbs.db
